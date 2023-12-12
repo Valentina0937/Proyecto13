@@ -1,6 +1,7 @@
 let progreso = document.querySelector('.progreso');
 let porcentaje = document.querySelector('.porcentaje');
-let celebracion = document.querySelector('.body');
+let celebracion = document.querySelector('body');
+let avance = 0;
 
 let tiempo = setInterval(()=>{
     avance +=1;
